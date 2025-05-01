@@ -9,7 +9,8 @@ const WeatherComponent = () => {
   const [weather, setWeather] = useState(null);
   const [forecast, setForecast] = useState([]);
   const [searchHistory, setSearchHistory] = useState([]);
-  const apiKey = '63b303ad3d1f177c8eb7f5f061fb98c2';
+  
+  const apiKey = 'API_KEY';
 
   
   /**
